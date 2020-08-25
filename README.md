@@ -1,12 +1,12 @@
 # [Browsershot](https://github.com/spatie/browsershot) wrapper for Laravel 5
 This package takes advantage of Google Chrome's Headless mode to take screenshots and generate PDFs from websites, views and raw html
 
-[![Build Status](https://travis-ci.org/verumconsilium/laravel-browsershot.svg?branch=master)](https://travis-ci.org/verumconsilium/laravel-browsershot)
-[![Coverage Status](https://coveralls.io/repos/github/verumconsilium/laravel-browsershot/badge.svg?branch=master)](https://coveralls.io/github/verumconsilium/laravel-browsershot?branch=master)
-[![Latest Stable Version](https://poser.pugx.org/verumconsilium/laravel-browsershot/v/stable)](https://packagist.org/packages/verumconsilium/laravel-browsershot)
-[![Latest Unstable Version](https://poser.pugx.org/verumconsilium/laravel-browsershot/v/unstable)](https://packagist.org/packages/verumconsilium/laravel-browsershot)
-[![Total Downloads](https://poser.pugx.org/verumconsilium/laravel-browsershot/downloads)](https://packagist.org/packages/verumconsilium/laravel-browsershot)
-[![License](https://poser.pugx.org/verumconsilium/laravel-browsershot/license)](https://packagist.org/packages/verumconsilium/laravel-browsershot)
+[![Build Status](https://travis-ci.org/IhorHnatchuk/laravel-browsershot.svg?branch=master)](https://travis-ci.org/IhorHnatchuk/laravel-browsershot)
+[![Coverage Status](https://coveralls.io/repos/github/IhorHnatchuk/laravel-browsershot/badge.svg?branch=master)](https://coveralls.io/github/IhorHnatchuk/laravel-browsershot?branch=master)
+[![Latest Stable Version](https://poser.pugx.org/IhorHnatchuk/laravel-browsershot/v/stable)](https://packagist.org/packages/IhorHnatchuk/laravel-browsershot)
+[![Latest Unstable Version](https://poser.pugx.org/IhorHnatchuk/laravel-browsershot/v/unstable)](https://packagist.org/packages/IhorHnatchuk/laravel-browsershot)
+[![Total Downloads](https://poser.pugx.org/IhorHnatchuk/laravel-browsershot/downloads)](https://packagist.org/packages/IhorHnatchuk/laravel-browsershot)
+[![License](https://poser.pugx.org/IhorHnatchuk/laravel-browsershot/license)](https://packagist.org/packages/IhorHnatchuk/laravel-browsershot)
 
 
 # Requirements
@@ -41,7 +41,7 @@ sudo chmod -R o+rx /usr/lib/node_modules/puppeteer/.local-chromium
 Install the package through composer 
 
 ```bash
-composer require verumconsilium/laravel-browsershot
+composer require IhorHnatchuk/laravel-browsershot
 ```
 
 After the package is installed the service provider will be automatically discovered and two new Facades `PDF` and `Screenshot` will be available
@@ -56,7 +56,7 @@ The recommended way to use this package is through its Facades
 
 ```php
   
-  use VerumConsilium\Browsershot\Facades\PDF;
+  use IhorHnatchuk\Browsershot\Facades\PDF;
   
   ...
   
@@ -70,7 +70,7 @@ You can chain all the methods available in the [browsershot master library](http
 ### Returning the PDF as a download
 
 ```php
-  use VerumConsilium\Browsershot\Facades\PDF;
+  use IhorHnatchuk\Browsershot\Facades\PDF;
   
   ...
   
@@ -114,7 +114,7 @@ Screenshots are created the same way as PDFs just change the facade to `Screensh
 By default screenshots will be taken as PNG format if you would like to use JPG instead call the `useJPG()` method
 
 ```php
-use VerumConsilium\Browsershot\Facades\Screenshot;
+use IhorHnatchuk\Browsershot\Facades\Screenshot;
 
 Screenshot::loadView('view.name', $data)
            ->useJPG()
