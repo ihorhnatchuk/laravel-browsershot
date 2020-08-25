@@ -26,16 +26,6 @@ trait UploadedFileable
         
     }
 
-    /**
-     * Creates a random name for the file
-     *
-     * @return string
-     */
-    protected function getRandomFileName(): string
-    {
-        return Str::random() . '.' . $this->getFileExtension();
-    }
-
     abstract protected function getFileExtension(): string;
 
     abstract protected function generateTempFile(): Wrapper;
