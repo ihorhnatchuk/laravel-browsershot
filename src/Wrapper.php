@@ -8,7 +8,6 @@ use Spatie\Image\Manipulations;
 use Spatie\TemporaryDirectory\TemporaryDirectory;
 use IhorHnatchuk\Browsershot\Traits\ContentLoadable;
 use IhorHnatchuk\Browsershot\Traits\Responsable;
-use IhorHnatchuk\Browsershot\Traits\Storable;
 use IhorHnatchuk\Browsershot\Traits\UploadedFileable;
 
 /**
@@ -20,7 +19,6 @@ abstract class Wrapper
     use Responsable;
     use ContentLoadable;
     use UploadedFileable;
-    use Storable;
 
     /**
      * Browsershot base class to generate PDFs.
@@ -43,7 +41,7 @@ abstract class Wrapper
      */
     protected $tempDir;
 
-    public function __construct(string $url = 'http://github.com/verumconsilium/laravel-browsershot')
+    public function __construct(string $url = 'http://github.com/ihorhnatchuk/laravel-browsershot')
     {
         $browsershot = new Browsershot($url);
         $browsershot->setNodeBinary(config('browsershot.nodeBinary'))
