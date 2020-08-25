@@ -1,14 +1,6 @@
 # [Browsershot](https://github.com/spatie/browsershot) wrapper for Laravel 5
 This package takes advantage of Google Chrome's Headless mode to take screenshots and generate PDFs from websites, views and raw html
 
-[![Build Status](https://travis-ci.org/IhorHnatchuk/laravel-browsershot.svg?branch=master)](https://travis-ci.org/IhorHnatchuk/laravel-browsershot)
-[![Coverage Status](https://coveralls.io/repos/github/IhorHnatchuk/laravel-browsershot/badge.svg?branch=master)](https://coveralls.io/github/ihorhnatchuk/laravel-browsershot?branch=master)
-[![Latest Stable Version](https://poser.pugx.org/IhorHnatchuk/laravel-browsershot/v/stable)](https://packagist.org/packages/ihorhnatchuk/laravel-browsershot)
-[![Latest Unstable Version](https://poser.pugx.org/IhorHnatchuk/laravel-browsershot/v/unstable)](https://packagist.org/packages/ihorhnatchuk/laravel-browsershot)
-[![Total Downloads](https://poser.pugx.org/IhorHnatchuk/laravel-browsershot/downloads)](https://packagist.org/packages/ihorhnatchuk/laravel-browsershot)
-[![License](https://poser.pugx.org/IhorHnatchuk/laravel-browsershot/license)](https://packagist.org/packages/ihorhnatchuk/laravel-browsershot)
-
-
 # Requirements
 
 * [Node](https://nodejs.org/) 7.6.0 or higher
