@@ -1,0 +1,40 @@
+{
+    "name": "ihorhnatchuk/laravel-browsershot",
+    "description": "Browsershot Laravel wrapper to generate PDF files and Screenshots using Headless Chrome",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ihor Hnatchuk",
+            "homepage": "https://t.me/ihor_hnatchuk"
+        }
+    ],
+    "type": "library",
+    "require": {
+        "spatie/browsershot": "^3.19"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.0",
+        "orchestra/testbench": "^3.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "IhorHnatchuk\\Browsershot\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "IhorHnatchuk\\Browsershot\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "IhorHnatchuk\\Browsershot\\BrowsershotServiceProvider"
+            ],
+            "aliases": {
+                "PDF": "IhorHnatchuk\\Browsershot\\Facades\\PDF",
+                "Screenshot": "IhorHnatchuk\\Browsershot\\Facades\\Screenshot"
+            }
+        }
+    }
+}
