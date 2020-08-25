@@ -1,8 +1,9 @@
 <?php
 
-namespace VerumConsilium\Browsershot\Traits;
+namespace IhorHnatchuk\Browsershot\Traits;
 
 use Illuminate\Http\Response;
+use Illuminate\Http\UploadedFile;
 
 trait Responsable
 {

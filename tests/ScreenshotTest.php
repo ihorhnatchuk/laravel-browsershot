@@ -1,9 +1,9 @@
 <?php
 
-namespace VerumConsilium\Browsershot\Tests;
+namespace IhorHnatchuk\Browsershot\Tests;
 
 use Illuminate\Support\Facades\Storage;
-use VerumConsilium\Browsershot\Screenshot;
+use IhorHnatchuk\Browsershot\Screenshot;
 use Illuminate\Foundation\Testing\TestResponse;
 
 class ScreenshotTest extends TestCase

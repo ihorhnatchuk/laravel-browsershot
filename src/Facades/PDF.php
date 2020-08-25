@@ -1,11 +1,11 @@
 <?php
 
-namespace VerumConsilium\Browsershot\Facades;
+namespace IhorHnatchuk\Browsershot\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
 /**
- * @mixin \VerumConsilium\Browsershot\PDF
+ * @mixin \IhorHnatchuk\Browsershot\PDF
  */
 class PDF extends Facade
 {

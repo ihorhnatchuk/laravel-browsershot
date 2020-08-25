@@ -1,11 +1,11 @@
 <?php
 
-namespace VerumConsilium\Browsershot\Traits;
+namespace IhorHnatchuk\Browsershot\Traits;
 
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Str;
 use Illuminate\Http\File;
-use VerumConsilium\Browsershot\Wrapper;
+use IhorHnatchuk\Browsershot\Wrapper;
 
 trait Storable
 {

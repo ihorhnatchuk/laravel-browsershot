@@ -1,6 +1,6 @@
 <?php
 
-namespace VerumConsilium\Browsershot;
+namespace IhorHnatchuk\Browsershot;
 
 use Illuminate\Support\ServiceProvider;
 

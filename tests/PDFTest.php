@@ -1,8 +1,8 @@
 <?php
 
-namespace VerumConsilium\Browsershot\Tests;
+namespace IhorHnatchuk\Browsershot\Tests;
 
-use VerumConsilium\Browsershot\PDF;
+use IhorHnatchuk\Browsershot\PDF;
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Foundation\Testing\TestResponse;
 

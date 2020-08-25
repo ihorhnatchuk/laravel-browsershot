@@ -1,6 +1,6 @@
 <?php
 
-namespace VerumConsilium\Browsershot;
+namespace IhorHnatchuk\Browsershot;
 
 class Screenshot extends Wrapper
 {

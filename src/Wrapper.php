@@ -1,14 +1,15 @@
 <?php
 
-namespace VerumConsilium\Browsershot;
+namespace IhorHnatchuk\Browsershot;
 
 use Illuminate\Support\Str;
 use Spatie\Browsershot\Browsershot;
 use Spatie\Image\Manipulations;
 use Spatie\TemporaryDirectory\TemporaryDirectory;
-use VerumConsilium\Browsershot\Traits\ContentLoadable;
-use VerumConsilium\Browsershot\Traits\Responsable;
-use VerumConsilium\Browsershot\Traits\Storable;
+use IhorHnatchuk\Browsershot\Traits\ContentLoadable;
+use IhorHnatchuk\Browsershot\Traits\Responsable;
+use IhorHnatchuk\Browsershot\Traits\Storable;
+use IhorHnatchuk\Browsershot\Traits\UploadedFileable;
 
 /**
  * @mixin Browsershot
@@ -18,6 +19,7 @@ abstract class Wrapper
 {
     use Responsable;
     use ContentLoadable;
+    use UploadedFileable;
     use Storable;
 
     /**

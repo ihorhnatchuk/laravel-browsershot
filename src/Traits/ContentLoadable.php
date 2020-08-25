@@ -1,8 +1,8 @@
 <?php
 
-namespace VerumConsilium\Browsershot\Traits;
+namespace IhorHnatchuk\Browsershot\Traits;
 
-use VerumConsilium\Browsershot\Wrapper;
+use IhorHnatchuk\Browsershot\Wrapper;
 use Spatie\Browsershot\Browsershot;
 
 trait ContentLoadable
@@ -13,7 +13,7 @@ trait ContentLoadable
      * @param string $view
      * @param array|null $data
      * @param array|null $mergeData
-     * @return \VerumConsilium\Browsershot\Wrapper
+     * @return \IhorHnatchuk\Browsershot\Wrapper
      * @throws \Throwable
      */
     public function loadView(string $view, ?array $data = [], ?array $mergeData = []): Wrapper

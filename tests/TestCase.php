@@ -1,12 +1,12 @@
 <?php
 
-namespace VerumConsilium\Browsershot\Tests;
+namespace IhorHnatchuk\Browsershot\Tests;
 
 use Orchestra\Testbench\TestCase as BaseTestCase;
-use VerumConsilium\Browsershot\BrowsershotServiceProvider;
+use IhorHnatchuk\Browsershot\BrowsershotServiceProvider;
 use Illuminate\Support\Facades\View;
-use VerumConsilium\Browsershot\Facades\PDF;
-use VerumConsilium\Browsershot\Facades\Screenshot;
+use IhorHnatchuk\Browsershot\Facades\PDF;
+use IhorHnatchuk\Browsershot\Facades\Screenshot;
 
 abstract class TestCase extends BaseTestCase
 {
